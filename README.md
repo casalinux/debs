@@ -4,4 +4,10 @@ Este é o repositório oficial da Casa Linux, uma distribuição personalizada b
 📥 Como adicionar este repositório
 
 Adicione a seguinte linha ao seu arquivo /etc/apt/sources.list ou crie um arquivo em /etc/apt/sources.list.d/casalinux.list:
-bash
+
+
+deb [trusted=yes] https://casalinux.github.io/debs/ ./
+
+Atualize a lista de pacotes e instale usando:
+
+sudo apt update
