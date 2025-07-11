@@ -1,0 +1,74 @@
+Package: atualizar-sistema
+Version: 1.0
+Architecture: all
+Maintainer: Fábio Dias Silveira <casalinuxos@gmail.com>
+Filename: ./atualizar-sistema-1.0.deb
+Size: 1368508
+MD5sum: be6f25aab29f5088f42cab4b2ea7bbc0
+SHA1: da884b8eacb9555e6010c31575707aa1e3549e18
+SHA256: 7e9a30894ea9539e219314e6a41cc55ea5e4419fb612d0540a27e496a8dc1bca
+Section: utils
+Priority: optional
+Description: Script gráfico de atualização do sistema baseado em pacotes unstable (Casa Linux).
+
+Package: casa-hw-detector
+Version: 1.1-1
+Architecture: all
+Maintainer: Casa Linux <casalinuxos.gmail.com>
+Depends: sudo, pciutils, usbutils, wireless-tools, wpasupplicant, firmware-iwlwifi, firmware-atheros, firmware-realtek
+Filename: ./casa-hw-detector_1.1-1.deb
+Size: 1419132
+MD5sum: 16f778c21a9fe71543afd8b772af3263
+SHA1: 075cc0b8faa2b6023811862f447cb90075307198
+SHA256: cea1c786dd367672d6c8781ec18c048b983a7d1cfc326cd0af074011f05b3e81
+Description: Detector de Hardware - Casa Linux
+ Script gráfico que detecta hardware e instala drivers automaticamente.
+
+Package: casalinux-tema-plymouth
+Version: 1.0
+Architecture: all
+Maintainer: Casa Linux <casalinux@example.com>
+Depends: plymouth, plymouth-themes-all, v86d, hwinfo, unzip, wget
+Filename: ./casalinux-tema-plymouth_v1.0.deb
+Size: 1316
+MD5sum: 8a543a9bc58be1954048e072322037ae
+SHA1: a9e697ea62ad9253ef18f02d034ce151cd00ce1b
+SHA256: 8a076a4a01c18b80cf64bb7b21a1b762d70b047b2d012561c907392b1b4adfcf
+Section: custom
+Priority: optional
+Description: Instala o tema Casa Linux e configura automaticamente o Plymouth e GRUB.
+
+Package: maria-lucia-font
+Version: 1.0-1
+Architecture: all
+Maintainer: Fábio Dias Silveira <casalinuxos@gmail.com>
+Filename: ./maria-lucia-font_1.0-1.deb
+Size: 20316
+MD5sum: 02940fcdbe042e342c79c6896bdde0ac
+SHA1: 117abd0485f7f0df6e4f77af2a6bdb4976fc987d
+SHA256: fb636463cc94a91713232499c1ba4d8b799a33e3b31f8cc4a0282623b8630031
+Section: fonts
+Priority: optional
+Description: Fonte Maria Lucia para sistemas Debian/Ubuntu
+ Instala a fonte Maria Lucia para uso geral no sistema.
+
+Package: neofetch
+Version: 6.0.0-2
+Architecture: all
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 328
+Recommends: chafa
+Filename: ./neofetch_6.0.0-2_all.deb
+Size: 104388
+MD5sum: af847395470c98e81ee3040df382d2cf
+SHA1: 628aba0d74a2a54aec18e3f58e59a021ecccc93d
+SHA256: 0665f14987de87fd08e3b63506313780f290d2d6349c5a6c0ed5d5dc16418374
+Section: utils
+Priority: optional
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows Linux System Information with Distribution Logo
+ Neoftech is a cross-platform and easy-to-use system information
+ command line script that collects your Linux system information
+ and display it on the terminal next to an image, it could be your
+ distributions logo or any ascii art of your choice.
+
